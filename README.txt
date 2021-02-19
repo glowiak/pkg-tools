@@ -9,8 +9,8 @@ pkg-delete (/usr/local/bin/pkg-delete) - removes a package
 All commands can be used with --help flag
 
 DOWNLOAD:
-Arch package:
-Universal TXZ
+Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.0-1-any.pkg.tar.zst
+Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.0.txz
 
 Installation:
 ArchPKG:
