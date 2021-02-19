@@ -44,3 +44,16 @@ user$ pkg-info <name of the package>
 
 Postinst script is the script that is executed after installation of the package.
 Example of postinst.sh is located at /etc/pkg-tools/examples/postinst.sh-example
+
+
+What is .MTREE?
+.MTREE is filesystem image that is used for pkg-delete to know what files should be deleted
+
+What if my program don't need postinst?
+If you don't want to execute any postinst scripts, just use '/etc/pkg-tools/examples/postinst.sh-example' as postinst path when building package.
+
+How I can make my package?
+That's easy. Just follow the steps (and may watch example package).
+Step 1: create directory with hierarchy of dirs (/usr, /usr/local etc).
+Step 2: run 'pkg-create <name of package> <version> <creator> <architecture> <postinst, you can use example for no script>' as normal user in build dir.
+Done.
