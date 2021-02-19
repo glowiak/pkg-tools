@@ -57,3 +57,6 @@ That's easy. Just follow the steps (and may watch example package).
 Step 1: create directory with hierarchy of dirs (/usr, /usr/local etc).
 Step 2: run 'pkg-create <name of package> <version> <creator> <architecture> <postinst, you can use example for no script>' as normal user in build dir.
 Done.
+
+As example you can test Minecraft Launcher package, that was built
+with pkg-create: https://github.com/glowiak/pkg-tools/releases/download/repodb/minecraft-launcher-1.0_x86_64.txz
