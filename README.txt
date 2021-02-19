@@ -31,3 +31,16 @@ Dependiences:
 -sh
 -xz-utils
 -tar
+
+Usage:
+pkg-create:
+user$ pkg-create <name of the package> <version> <creator> <architecture> <postinst script>
+pkg-add:
+root# pkg-add /path/to/package.txz
+pkg-delete:
+root# pkg-delete <name of the package>
+pkg-info:
+user$ pkg-info <name of the package>
+
+Postinst script is the script that is executed after installation of the package.
+Example of postinst.sh is located at /etc/pkg-tools/examples/postinst.sh-example
