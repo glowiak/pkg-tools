@@ -94,3 +94,5 @@ Package distribution
 sysconf   = packages can be installed only from online repositories (no chance to install from local fs)
 gpk       = supports only installing from local fs, but igpk package provides slackpkg-like interface to install from repos
 pkg-tools = supports only installing from local fs, but I'm working on apt-like tool for managing repos
+
+Sorry for not making 32bit packages, but I don't have 32bit pc
