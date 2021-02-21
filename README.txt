@@ -71,3 +71,26 @@ repodb ( http://github.com/glowiak/pkg-tools/releases/tag/repodb ) is repository
 
 Why txz and not tgz, tbz or tlz?
 idk I just like txz
+
+
+Comparison of my package managers:
+#######################################
+Package format:
+sysconf   = cpio+xz+tgz
+gpk       = ar+tgz
+pkg-tools = txz+txz
+#######################################
+Dependiences support:
+sysconf   = no
+gpk       = no
+pkg-tools = no
+#######################################
+Package creation (difficulty):
+sysconf   = very hard, need to manually setup files, pack and upload it
+gpk       = hard, need to manually setup files, need to download build script, which may print error (lololol)
+pkg-tools = very easy, no need to manually setup any config files or download build scripts. Just prepare file tree and run pkg-create with arguments
+#######################################
+Package distribution
+sysconf   = packages can be installed only from online repositories (no chance to install from local fs)
+gpk       = supports only installing from local fs, but igpk package provides slackpkg-like interface to install from repos
+pkg-tools = supports only installing from local fs, but I'm working on apt-like tool for managing repos
