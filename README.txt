@@ -60,3 +60,14 @@ Done.
 
 As example you can test Minecraft Launcher package, that was built
 with pkg-create: https://github.com/glowiak/pkg-tools/releases/download/repodb/minecraft-launcher-1.0_x86_64.txz
+
+Distro compatibility
+#########################################
+Recommended distros to use pkg-tools are: Archlinux (86_64) and Slackware64-CURRENT
+but pkg-tools can be used on any UNIX-like os with sh, tar and xz.
+repodb ( http://github.com/glowiak/pkg-tools/releases/tag/repodb ) is repository of packages built for Arch (x86_64) and Slackware64-CURRENT
+
+
+
+Why txz and not tgz, tbz or tlz?
+idk I just like txz
