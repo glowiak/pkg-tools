@@ -96,3 +96,12 @@ gpk       = supports only installing from local fs, but igpk package provides sl
 pkg-tools = supports only installing from local fs, but I'm working on apt-like tool for managing repos
 
 Sorry for not making 32bit packages, but I don't have 32bit pc
+
+
+
+pkg-get
+##################################
+So, I made apt-like tool to managing pkg-tools packages.
+Download:
+for x64: https://github.com/glowiak/pkg-tools/releases/download/repodb/pkg-get-1.3_x86_64.txz
+for i386: https://github.com/glowiak/pkg-tools/releases/download/repodb/pkg-get-1.3_i386.txz
