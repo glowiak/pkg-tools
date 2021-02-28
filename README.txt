@@ -105,3 +105,11 @@ So, I made apt-like tool to managing pkg-tools packages.
 Download:
 for x64: https://github.com/glowiak/pkg-tools/releases/download/repodb/pkg-get-1.3_x86_64.txz
 for i386: https://github.com/glowiak/pkg-tools/releases/download/repodb/pkg-get-1.3_i386.txz
+
+btw
+####################################
+pkg-get is too much apt-like, btw it the NEW  orginal, customizable tool for managing pkg-tools packages.
+How to get it?
+Install 'btw' package with pkg-get or download this:
+https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.0_x86_64.txz
+file, and install it with pkg-add
