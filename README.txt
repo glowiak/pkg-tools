@@ -111,5 +111,20 @@ btw
 pkg-get is too much apt-like, btw it the NEW  orginal, customizable tool for managing pkg-tools packages.
 How to get it?
 Install 'btw' package with pkg-get or download this:
-https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.0_x86_64.txz
+https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.2_x86_64.txz
 file, and install it with pkg-add
+
+Q: How I can configure btw?
+A: Just edit /etc/btw.conf
+
+btw 1.1 UPDATE RELEASED!!!!!!!
+News: now btw uses wget to fetch files instead of curl; added groups
+
+groups
+#####################################
+groups are like dependiences, you can use it, in btw only, but I'm planning port in into pkg-get.
+groups usage (btw):
+root# btw gdd <group name>
+
+Q: Why latest btw is 1.2, but not 1.1?
+A: btw 1.1 exists in repositories, but this version is broken and it isn't recommended to use it.
