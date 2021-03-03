@@ -9,8 +9,8 @@ pkg-delete (/usr/local/bin/pkg-delete) - removes a package
 All commands can be used with --help flag
 
 DOWNLOAD:
-Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.0-1-any.pkg.tar.zst
-Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.0.txz
+Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.1-1-any.pkg.tar
+Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.1.txz
 
 Installation:
 ArchPKG:
@@ -128,3 +128,17 @@ root# btw gdd <group name>
 
 Q: Why latest btw is 1.2, but not 1.1?
 A: btw 1.1 exists in repositories, but this version is broken and it isn't recommended to use it.
+
+
+GOOD NEWS! 1.1 UPDATE RELEASED!!!!
+What new?
+-added /etc/pkg-tools/pkg-tools.conf, the config file of the pm
+-fixed bug, that will broke pm, when filename is empty
+
+######### CONFIGURING pkg-tools.conf ###########
+pkg-tools.conf, that is located in /etc/pkg-tools/ is the config file
+
+WHAT TO EDIT?
+-You can change the 'PKGROOT' variable, to ser where the packages are installed, for example to '/mnt', works only with absolute paths
+-Finnaly, you can change compression type!!! default is 'J' (xz), but you can change it for example to 'j' (bzip2) or 'Z' (ncompress). you can do it via changing 'PKGTYPE' variable
+-You also can change pkg extension!!! default is 'txz', but you can change is as you like! for example to 'pkg' to get 'package.pkg'! if you want to troll windows users change extension to msi. you can to it via changing 'PKGEXT' variable
