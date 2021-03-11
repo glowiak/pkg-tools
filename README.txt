@@ -8,6 +8,9 @@ pkg-delete (/usr/local/bin/pkg-delete) - removes a package
 
 All commands can be used with --help flag
 
+This software is wroten is SH(ell) and it's distributed under 4-clause BSD license ( https://raw.githubusercontent.com/glowiak/pkg-tools/master/BSD )
+
+
 DOWNLOAD:
 Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.1-1-any.pkg.tar
 Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.1.txz
