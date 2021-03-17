@@ -1,3 +1,8 @@
+
+
+!NOTE! pkg-tools is being moved to https://sourceforge.net/p/pkg-tools/code/ci/master/tree/
+
+
 pkg-tools - modern package manager.
 
 Commands:
