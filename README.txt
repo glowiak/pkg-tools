@@ -145,3 +145,6 @@ WHAT TO EDIT?
 -You can change the 'PKGROOT' variable, to ser where the packages are installed, for example to '/mnt', works only with absolute paths
 -Finnaly, you can change compression type!!! default is 'J' (xz), but you can change it for example to 'j' (bzip2) or 'Z' (ncompress). you can do it via changing 'PKGTYPE' variable
 -You also can change pkg extension!!! default is 'txz', but you can change is as you like! for example to 'pkg' to get 'package.pkg'! if you want to troll windows users change extension to msi. you can to it via changing 'PKGEXT' variable
+
+
+i'm moving pkg-tools to sourceforge
