@@ -17,8 +17,8 @@ This software is wroten is SH(ell) and it's distributed under 4-clause BSD licen
 
 
 DOWNLOAD:
-Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.1-1-any.pkg.tar
-Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.1.txz
+Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.2-1-any.pkg.tar
+Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.2.txz
 
 Installation:
 ArchPKG:
@@ -161,3 +161,10 @@ i'm moving pkg-tools to sourceforge
 How to use btw-mp?
 1. Type 'btw mpm' in shell;
 2. Type packages that you want to install or 'exit' to quit btw
+
+
+# pkg-tools 1.2 released!
+What new in 1.2?
+-ported pkg-tools to bourne shell (orginal /bin/sh, still used in FreeBSD and NetBSD)
+
+pkg-get is now unsupported, please use btw instead
