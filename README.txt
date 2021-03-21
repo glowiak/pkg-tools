@@ -119,7 +119,7 @@ btw
 pkg-get is too much apt-like, btw it the NEW  orginal, customizable tool for managing pkg-tools packages.
 How to get it?
 Install 'btw' package with pkg-get or download this:
-https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.2_x86_64.txz
+https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.3_x86_64.txz
 file, and install it with pkg-add
 
 Q: How I can configure btw?
@@ -153,3 +153,11 @@ WHAT TO EDIT?
 
 
 i'm moving pkg-tools to sourceforge
+
+
+# btw 1.3 update
+-added 'mpm' action. mpm stands for Multipackaging Mode, and allows you to install many packages with one command.
+
+How to use btw-mp?
+1. Type 'btw mpm' in shell;
+2. Type packages that you want to install or 'exit' to quit btw
