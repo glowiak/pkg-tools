@@ -91,7 +91,7 @@ pkg-tools = txz+txz
 Dependiences support:
 sysconf   = no
 gpk       = no
-pkg-tools = no
+pkg-tools = work in progress
 #######################################
 Package creation (difficulty):
 sysconf   = very hard, need to manually setup files, pack and upload it
