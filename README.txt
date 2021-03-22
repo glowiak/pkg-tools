@@ -180,3 +180,10 @@ mkdir /tmp/pkg-create0
 echo "<dependency 1> <dependency 2> <dependency 3>" > /tmp/pkg-create0/.DEPS_PKG //replace '<dependency X>' with depenciendes of your package
 //Now normally create the package, and upload it to a repo. This package supports dependiences. I'm working on installing local files with dependiences.
 pkg-create <name> <version> <creator> <architecture> <postinst script path>
+
+
+Q: ok, but gpk also supports dependiences, so pkg-tools is using distro's package manager? if yes, why there's only ArchPKG and universal pkg?
+A: gpk was pretty bad. pkg-tools is installing dependiences from its own repodb, using 'dps' btw function
+
+Q: sooo, what is 'dps' btw function, how it works and how to use it?
+A: dps means 'dependiences', and is used for installing dependiences. dps is using DEPS variable defined before starting btw, to know which packages should be installed. in one word, dps is like multipackaging mode, but can be used in a scripts, for example to install apache-apr-{,util} use 'DEPS="apache-apr apache-apr-util" btw dps'
