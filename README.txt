@@ -186,4 +186,4 @@ Q: ok, but gpk also supports dependiences, so pkg-tools is using distro's packag
 A: gpk was pretty bad. pkg-tools is installing dependiences from its own repodb, using 'dps' btw function
 
 Q: sooo, what is 'dps' btw function, how it works and how to use it?
-A: dps means 'dependiences', and is used for installing dependiences. dps is using DEPS variable defined before starting btw, to know which packages should be installed. in one word, dps is like multipackaging mode, but can be used in a scripts, for example to install apache-apr-{,util} use 'DEPS="apache-apr apache-apr-util" btw dps'
+A: dps means 'dependiences', and is used for installing dependiences. dps is using DEPS variable defined before starting btw, to know which packages should be installed. in one word, dps is like multipackaging mode, but can be used in a scripts, for example to install apache-apr{,-util} use 'DEPS="apache-apr apache-apr-util" btw dps'
