@@ -91,7 +91,7 @@ pkg-tools = txz+txz
 Dependiences support:
 sysconf   = no
 gpk       = no
-pkg-tools = work in progress
+pkg-tools = yes
 #######################################
 Package creation (difficulty):
 sysconf   = very hard, need to manually setup files, pack and upload it
@@ -168,3 +168,15 @@ What new in 1.2?
 -ported pkg-tools to bourne shell (orginal /bin/sh, still used in FreeBSD and NetBSD)
 
 pkg-get is now unsupported, please use btw instead
+
+# btw 1.4 update
+-added dependiences support. To have compatibility with older packages, 'add' option will install packages without
+resolving dependiences, while 'ndd' option will install packages, but install their dependiences first.
+
+# Adding dependiences to packages
+[NOTE: btw doesn't support installing dependiences of dependiences, so instead of 'apache-apr-util' use 'apache-apr apache-apr-util'.]
+//First create pkg-create0 directory:
+mkdir /tmp/pkg-create0
+echo "<dependency 1> <dependency 2> <dependency 3>" > /tmp/pkg-create0/.DEPS_PKG //replace '<dependency X>' with depenciendes of your package
+//Now normally create the package, and upload it to a repo. This package supports dependiences. I'm working on installing local files with dependiences.
+pkg-create <name> <version> <creator> <architecture> <postinst script path>
