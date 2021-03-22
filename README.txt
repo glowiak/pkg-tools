@@ -174,7 +174,7 @@ pkg-get is now unsupported, please use btw instead
 resolving dependiences, while 'ndd' option will install packages, but install their dependiences first.
 
 # Adding dependiences to packages
-[NOTE: btw doesn't support installing dependiences of dependiences, so instead of 'apache-apr-util' use 'apache-apr apache-apr-util'.]
+[NOTE: btw doesn't support installing dependiences of dependiences. For example instead of 'apache-apr-util' use 'apache-apr apache-apr-util'.]
 //First create pkg-create0 directory:
 mkdir /tmp/pkg-create0
 echo "<dependency 1> <dependency 2> <dependency 3>" > /tmp/pkg-create0/.DEPS_PKG //replace '<dependency X>' with depenciendes of your package
