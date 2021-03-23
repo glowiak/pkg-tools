@@ -1,8 +1,3 @@
-
-
-!NOTE! pkg-tools is being moved to https://sourceforge.net/p/pkg-tools/code/ci/master/tree/
-
-
 pkg-tools - modern package manager.
 
 Commands:
@@ -187,3 +182,8 @@ A: gpk was pretty bad. pkg-tools is installing dependiences from its own repodb,
 
 Q: sooo, what is 'dps' btw function, how it works and how to use it?
 A: dps means 'dependiences', and is used for installing dependiences. dps is using DEPS variable defined before starting btw, to know which packages should be installed. in one word, dps is like multipackaging mode, but can be used in a scripts, for example to install apache-apr{,-util} use 'DEPS="apache-apr apache-apr-util" btw dps'
+
+# btw 1.5 update
+-added support for installing local packages with dependiences. use 'lnd' btw option to do it. Usage: 'btw lnd package-version_arch.txz'.
+
+I'm planning to compile X packages and pack it into pkg-tools packages.
