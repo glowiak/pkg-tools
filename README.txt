@@ -200,3 +200,8 @@ Ok, I finished the search feature, that's named 'srh'. I'll just fix some bugs a
 -fixed many bugs
 -now if you want to remove/get info about package, but this package doesn't exists, btw tells you that
 -now if you want to install local package with dependiences, but file doesn't exists, btw tells you that
+
+
+# Indexing packages
+repository's package index is just a text file named 'repo.db' containing 'pkg_name     description'. Just place it in the same place
+that repo's packages are stored in
