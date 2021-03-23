@@ -189,3 +189,5 @@ A: dps means 'dependiences', and is used for installing dependiences. dps is usi
 I'm planning to compile X packages and pack it into pkg-tools packages.
 
 Today or tomorrow I'll add search feature to btw.
+
+I indexed repodb's packages, so now time to work on search feature :)
