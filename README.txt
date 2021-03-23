@@ -187,3 +187,5 @@ A: dps means 'dependiences', and is used for installing dependiences. dps is usi
 -added support for installing local packages with dependiences. use 'lnd' btw option to do it. Usage: 'btw lnd package-version_arch.txz'.
 
 I'm planning to compile X packages and pack it into pkg-tools packages.
+
+Today or tomorrow I'll add search feature to btw.
