@@ -191,3 +191,5 @@ I'm planning to compile X packages and pack it into pkg-tools packages.
 Today or tomorrow I'll add search feature to btw.
 
 I indexed repodb's packages, so now time to work on search feature :)
+
+Ok, I finished the search feature, that's named 'srh'. I'll just fix some bugs and upload btw 1.6 :D
