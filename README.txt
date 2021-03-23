@@ -114,7 +114,7 @@ btw
 pkg-get is too much apt-like, btw it the NEW  orginal, customizable tool for managing pkg-tools packages.
 How to get it?
 Install 'btw' package with pkg-get or download this:
-https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.5_x86_64.txz
+https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.6_x86_64.txz
 file, and install it with pkg-add
 
 Q: How I can configure btw?
@@ -193,3 +193,10 @@ Today or tomorrow I'll add search feature to btw.
 I indexed repodb's packages, so now time to work on search feature :)
 
 Ok, I finished the search feature, that's named 'srh'. I'll just fix some bugs and upload btw 1.6 :D
+
+# btw 1.6 update
+-added 'srh' function that's used to search for packages.
+-added 'upr' function that's used to update local software index stored on your pc, needed for 'srh' function to work
+-fixed many bugs
+-now if you want to remove/get info about package, but this package doesn't exists, btw tells you that
+-now if you want to install local package with dependiences, but file doesn't exists, btw tells you that
