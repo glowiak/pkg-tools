@@ -12,8 +12,8 @@ This software is wroten is SH(ell) and it's distributed under 4-clause BSD licen
 
 
 DOWNLOAD:
-Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.2-1-any.pkg.tar
-Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.2.txz
+Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.3-1-any.pkg.tar
+Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.3.txz
 
 Installation:
 ArchPKG:
@@ -208,3 +208,6 @@ that repo's packages are stored in
 
 # btw 1.7 update
 1.7 is minor bugfix update for btw
+
+# pkg-tools 1.3 update
+1.3 is minor bugfix update for pkg-tools
