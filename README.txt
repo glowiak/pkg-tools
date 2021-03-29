@@ -114,7 +114,7 @@ btw
 pkg-get is too much apt-like, btw it the NEW  orginal, customizable tool for managing pkg-tools packages.
 How to get it?
 Install 'btw' package with pkg-get or download this:
-https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.7_x86_64.txz
+https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.8_noarch.txz
 file, and install it with pkg-add
 
 Q: How I can configure btw?
@@ -218,3 +218,11 @@ for example bash/kornshell/sh scripts as packages, for any architecture or steam
 
 btw 1.8 will be released today :D
 i'm working on graphical tool 'gbtw' or something :)
+
+# btw 1.8 update
+1.8 is major update for btw
+What new?
+-now packages are stored in /etc/btw/packages instead of tmp dir that is removed after installing
+-added 'ccc' option to clean packages stored on disk
+-now btw uses 'noarch' architecture, so you can't use it with pkg-tools 1.3 or older
+-fixed many bugs
