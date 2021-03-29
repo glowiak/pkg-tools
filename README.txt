@@ -12,8 +12,8 @@ This software is wroten is SH(ell) and it's distributed under 4-clause BSD licen
 
 
 DOWNLOAD:
-Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.3-1-any.pkg.tar
-Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.3.txz
+Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.4-1-any.pkg.tar
+Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.4.txz
 
 Installation:
 ArchPKG:
@@ -211,3 +211,10 @@ that repo's packages are stored in
 
 # pkg-tools 1.3 update
 1.3 is minor bugfix update for pkg-tools
+
+# pkg-tools 1.4 update
+1.4 is major update that adds 'noarch' package architecture, that allows you to package,
+for example bash/kornshell/sh scripts as packages, for any architecture or steam
+
+btw 1.8 will be released today :D
+i'm working on graphical tool 'gbtw' or something :)
