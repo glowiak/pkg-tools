@@ -250,6 +250,7 @@ I added some more dev-bin packages for daily use:
 -kernel54-dev-bin: Linux 5.4 Kernel and Headers
 -kernelfw-dev-bin: Linux Kernel Firmware
 -xorgapps-dev-bin: Xorg apps like xterm or twm
+-grub2-dev-bin: GRUB2 Bootloader
 Any suggestions of name of new distro?
 
 # Installing Xorg with pkg-tools
