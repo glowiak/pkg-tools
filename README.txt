@@ -12,8 +12,8 @@ This software is wroten is SH(ell) and it's distributed under 4-clause BSD licen
 
 
 DOWNLOAD:
-Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.4-1-any.pkg.tar
-Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.4.txz
+Arch package: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools-1.5-1-any.pkg.tar
+Universal TXZ: https://github.com/glowiak/pkg-tools/releases/download/1.0/pkg-tools.1.5.txz
 
 Installation:
 ArchPKG:
@@ -240,3 +240,7 @@ as <package name>-dev-bin, version of it will be 'arch-dev'.
 # Base Utilities
 I ported from Arch 2 more packages: 'base' as 'base-dev-bin' and 'base-devel' as 'basedevel-dev-bin'. Pacman is removed from those packages.
 I'll port kernel 4.19 and GRUB2
+
+# pkg-tools 1.5 update
+1.5 is minor bugfix update for pkg-tools, that makes possible installing packages in chroot,
+it will be useful, when pkg-tools-based distro will be ready.
