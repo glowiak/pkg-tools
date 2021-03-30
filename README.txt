@@ -244,3 +244,14 @@ I'll port kernel 4.19 and GRUB2
 # pkg-tools 1.5 update
 1.5 is minor bugfix update for pkg-tools, that makes possible installing packages in chroot,
 it will be useful, when pkg-tools-based distro will be ready.
+
+# pkg-tools-based distro is NEAR
+I added some more dev-bin packages for daily use:
+-kernel54-dev-bin: Linux 5.4 Kernel and Headers
+-kernelfw-dev-bin: Linux Kernel Firmware
+-xorgapps-dev-bin: Xorg apps like xterm or twm
+Any suggestions of name of new distro?
+
+# Installing Xorg with pkg-tools
+Install 'xorg-dev-bin' and 'xorgapps-dev-bin' packages with btw. Optionally you can download and install it manually,
+but this isn't recommended.
