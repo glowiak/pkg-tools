@@ -226,3 +226,13 @@ What new?
 -added 'ccc' option to clean packages stored on disk
 -now btw uses 'noarch' architecture, so you can't use it with pkg-tools 1.3 or older
 -fixed many bugs
+
+
+# Xorg
+xorg is a big problem, it's large program with a lot of dependiences,
+i don't have enough time to build all xorg-related packages, so i ported xorg from Arch's repos
+as 'xorg-dev-bin' package. this package also contains open-source GPU drivers.
+
+i'm planning to make pkg-tools-based distro. now i don't have enough time to compile
+all those software on my pc, so this base stuff like gcc, xorg and others will be grabed from Arch repos
+as <package name>-dev-bin, version of it will be 'arch-dev'.
