@@ -236,3 +236,7 @@ as 'xorg-dev-bin' package. this package also contains open-source GPU drivers.
 i'm planning to make pkg-tools-based distro. now i don't have enough time to compile
 all those software on my pc, so this base stuff like gcc, xorg and others will be grabed from Arch repos
 as <package name>-dev-bin, version of it will be 'arch-dev'.
+
+# Base Utilities
+I ported from Arch 2 more packages: 'base' as 'base-dev-bin' and 'base-devel' as 'basedevel-dev-bin'. Pacman is removed from those packages.
+I'll port kernel 4.19 and GRUB2
