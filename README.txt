@@ -262,3 +262,5 @@ but this isn't recommended.
 I was testing OS v0.1 codename "Tsetse", all is ok, but it has problems with initramfs, so no chance to booting from GRUB at the moment :/
 
 Sorry, no updates today and tomorrow, because I'm working on desktopinstaller ( http://sourceforge.net/p/desktopinstaller/code/ci/master/tree )
+
+pkg-tools yet don't have full bourne shell support, I'll add it today or tomorrow, but for now, you can symlink kornshell (ksh93) to /bin/sh
