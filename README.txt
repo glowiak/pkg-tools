@@ -269,3 +269,15 @@ I decied to remove Arch pkg-tools package. Instead of it you will can download .
 I'll stop developing codename tsetse for a while, because I can't find any way to build initramfs,
 instead of it I will release more pkg-tools and btw updates, for better bourne shell compatibility, and bug fixes
 Codename tsetse will be back, but not now, sorry.
+
+Wait, I have and idea: turn codename tsetse into bedrock-like metadistro installable on existing distro.
+ok, I'll do it
+
+Q: Will it delete my files?
+A: No, It will delete only your-os-related things like pacman, zypper or makepkg
+
+Q: When pkg-tools will have full bourne shell support
+A: I don't know when, this may take a while
+
+Q: So, which shell should I link to /bin/sh?
+A: The best option is to link kornshell to /bin/sh, kornshell is faster than bash, I tested on it pkg-tools, but it also should work with bash, BUT NOT WORK WITH DASH, THAT IS DEFAULT LINKED IN UBUNTU, so if you're using ubuntu, install kornshell and link ksh93 (ksh is always symlink to ksh93, you cannot make link to link) to /bin/sh
