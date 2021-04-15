@@ -264,3 +264,8 @@ I was testing OS v0.1 codename "Tsetse", all is ok, but it has problems with ini
 Sorry, no updates today and tomorrow, because I'm working on desktopinstaller ( http://sourceforge.net/p/desktopinstaller/code/ci/master/tree )
 
 pkg-tools yet don't have full bourne shell support, I'll add it today or tomorrow, but for now, you can symlink kornshell (ksh93) to /bin/sh
+
+I decied to remove Arch pkg-tools package. Instead of it you will can download .tar.xz file, and use make to install/remove it.
+I'll stop developing codename tsetse for a while, because I can't find any way to build initramfs,
+instead of it I will release more pkg-tools and btw updates, for better bourne shell compatibility, and bug fixes
+Codename tsetse will be back, but not now, sorry.
