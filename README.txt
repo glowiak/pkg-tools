@@ -281,3 +281,9 @@ A: I don't know when, this may take a while
 
 Q: So, which shell should I link to /bin/sh?
 A: The best option is to link kornshell to /bin/sh, kornshell is faster than bash, I tested on it pkg-tools, but it also should work with bash, BUT NOT WORK WITH DASH, THAT IS DEFAULT LINKED IN UBUNTU, so if you're using ubuntu, install kornshell and link ksh93 (ksh is always symlink to ksh93, you cannot make link to link) to /bin/sh
+
+I started working on tsetse, work in progress at tsetse-init - init management tool, that uses core-system's init
+to manage services.
+
+Q: So, tsetse can be installed on a systemd-distro only?
+A: No, tsetse-init will detect your core-init. You'll can use one the same command on other init systems.
