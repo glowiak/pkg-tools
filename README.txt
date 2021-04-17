@@ -1,5 +1,7 @@
 pkg-tools - modern package manager.
 
+If you're looking for news, devblog is located at bottom of the page
+
 Commands:
 pkg-add (/usr/local/bin/pkg-add) - installs package
 pkg-create (/usr/local/bin/pkg-create) - creates package from current directory (to use it create in CWD dirs: usr,etc,opt etc), puts the pkg file to ..
