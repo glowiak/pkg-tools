@@ -1,6 +1,6 @@
 pkg-tools - modern package manager.
 
-If you're looking for news, devblog is located at bottom of the page
+If you're looking for news about pkg-tools, devblog is located at bottom of the page
 
 Commands:
 pkg-add (/usr/local/bin/pkg-add) - installs package
