@@ -300,5 +300,5 @@ Tsetse will support following inits:
 I maybe add s6 support later
 
 Q: What is "tsetse scripts"?
-A: Tsetse is modular init tool, everyone can add own modules to it. Modules are just ksh scripts, that
+A: tsetse-init is modular init tool, everyone can add own modules to it. Modules are just ksh scripts, that
 are placed in /usr/local/etc/tsetse/init/scripts directory
