@@ -287,3 +287,18 @@ to manage services.
 
 Q: So, tsetse can be installed on a systemd-distro only?
 A: No, tsetse-init will detect your core-init. You'll can use one the same command on other init systems.
+
+Two new packages added:
+-tsetse-system, that contains Tsetse system
+-tsetse-init, that contains Tsetse init and scripts
+
+Tsetse will support following inits:
+-systemd
+-runit
+-OpenRC
+-SysVinit
+I maybe add s6 support later
+
+Q: What is "tsetse scripts"?
+A: Tsetse is modular init tool, everyone can add own modules to it. Modules are just ksh scripts, that
+are placed in /usr/local/etc/tsetse/init/scripts directory
