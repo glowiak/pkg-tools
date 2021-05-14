@@ -116,7 +116,7 @@ btw
 pkg-get is too much apt-like, btw it the NEW  orginal, customizable tool for managing pkg-tools packages.
 How to get it?
 Install 'btw' package with pkg-get or download this:
-https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.8_noarch.txz
+https://github.com/glowiak/pkg-tools/releases/download/repodb/btw-1.9_noarch.txz
 file, and install it with pkg-add
 
 Q: How I can configure btw?
@@ -306,3 +306,16 @@ A: tsetse-init is modular init tool, everyone can add own modules to it. Modules
 are placed in /usr/local/etc/tsetse/init/scripts directory
 
 I'm making new source-based package manager - cps (Concurrent Port System) :)
+
+I'm back. Time for updates.
+
+btw 1.9 update RELEASED.
+1.9 is major update to btw, that adds 'upg' function that upgrades a package.
+
+
+Q: What is this 'upg' function?
+A: it's like 'upgrade' slackpkg command. Upgrades a package, but cannot install a package that isn't installed
+
+Today, will be another pkg-tools update
+
+I'll stop developing tsetse for a while
