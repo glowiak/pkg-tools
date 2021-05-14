@@ -319,3 +319,6 @@ A: it's like 'upgrade' slackpkg command. Upgrades a package, but cannot install 
 Today, will be another pkg-tools update
 
 I'll stop developing tsetse for a while
+
+### Self-updating btw
+will be in next update
