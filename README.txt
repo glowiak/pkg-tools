@@ -322,3 +322,6 @@ I'll stop developing tsetse for a while
 
 ### Self-updating btw
 will be in next update
+
+
+I'l compiling X11 packages :))))))))
